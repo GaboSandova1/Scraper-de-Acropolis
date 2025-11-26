@@ -5,7 +5,6 @@ import re
 import time
 import urllib.parse
 
-# ----------------- CONFIG -----------------
 BASE_URL = "https://aulavirtual.ujap.edu.ve"
 LOGIN_URL = f"{BASE_URL}/login/index.php"
 MY_COURSES = f"{BASE_URL}/my/courses.php"
@@ -14,9 +13,8 @@ DEST_ROOT = Path(r"C:\Users\slgab\OneDrive\Desktop\Universidad\9vo Semestre")
 DEST_ROOT.mkdir(parents=True, exist_ok=True)
 
 # CREDENCIALES
-USERNAME = "gsandoval21"
-PASSWORD = "Gs20mh21."
-# ------------------------------------------
+USERNAME = "Aqui va tu nombre de usuario"
+PASSWORD = "Aqui va tu password"
 
 def clean_name(name: str) -> str:
     # Limpia caracteres inválidos para Windows
@@ -272,4 +270,5 @@ def run():
         browser.close()
 
 if __name__ == "__main__":
+
     run()
