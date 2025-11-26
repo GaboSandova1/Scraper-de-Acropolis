@@ -101,10 +101,7 @@ python download_ujap_materials.py
 
 - Este script es para uso personal y educativo. Respeta las políticas de uso del sitio y los derechos de autor de los materiales descargados.
 
-Si quieres, puedo:
-- Añadir la lectura de credenciales desde variables de entorno.
-- Añadir un `requirements.txt` o `pyproject.toml`.
-- Añadir un flag `--headless` y argumentos CLI.
+--
 
----
-Archivo principal: `download_ujap_materials.py`
+**de Gabo Sandoval**
+
